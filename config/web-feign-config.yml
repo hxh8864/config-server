@@ -1,9 +1,9 @@
 spring:
   application:
-    name: spring-cloud-web-admin-feign
+    name: spring-cloud-config-client-feign
 
 server:
-  port: 8765
+  port: 8767
 
 eureka:
   client:
