@@ -1,6 +1,9 @@
 spring:
   application:
     name: spring-cloud-config-client-feign
+  #zipkin 被追踪的项目配置文件中添加Zipkin Server的地址
+  zipkin:
+    base-url: http://localhost:9001
 
 server:
   port: 8767
